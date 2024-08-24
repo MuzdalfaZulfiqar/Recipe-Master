@@ -87,7 +87,9 @@ function SavedRecipes() {
         <div className="recipeSectionTitle">
           <h2 className="recipesSectionTitle-Span">Recipes</h2>
         </div>
-        {mappedSavedRecipeArray.length ==0 && <h2>You do not any saved recipes yet</h2>}
+        {mappedSavedRecipeArray.length ==0 && <h4 style={{
+          textAlign:"center"
+        }}>You do not any saved recipes yet</h4>}
         <div className="recipesSection">
           
           
