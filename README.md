@@ -32,7 +32,7 @@ Check out the live application here: [Recipe Master](https://recipe-master-eta.v
 ### Recipes Page
 ![image](https://github.com/user-attachments/assets/6e0bf459-be06-473d-8d57-0f649449e9c2)
 
-![image](https://github.com/user-attachments/assets/61393103-1551-47c9-b0f5-0fff2ea165e5)
+![image](https://github.com/user-attachments/assets/48658574-c02c-4dd9-8ba7-0550f2270aa3)
 
 
 
