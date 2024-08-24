@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Replace with your MongoDB Atlas connection string
-const mongoURI = "mongodb+srv://muzdalfazulfiqar11:Lh0zZKaUxoKE8lsf@cluster0.8dl8o.mongodb.net/RecipeMaster?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://muzdalfazulfiqar11:Lh0zZKaUxoKE8lsf@cluster0.8dl8o.mongodb.net/RecipeMaster";
 
 function connectToMongo() {
     mongoose.connect(mongoURI, {
