@@ -89,9 +89,7 @@ export default function RecipeCard(props) {
   return (
     <>
       <div className="recipeCard"
-      onClick={() => {
-        props.onViewRecipe(props.id);
-      }}
+      
       >
         <div style={{ position: "relative" }} className="top">
           <img src={props.url} alt="" />
