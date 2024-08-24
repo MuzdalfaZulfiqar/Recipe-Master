@@ -4,10 +4,7 @@ const mongoose = require("mongoose");
 const mongoURI = "mongodb+srv://muzdalfazulfiqar11:Lh0zZKaUxoKE8lsf@cluster0.8dl8o.mongodb.net/RecipeMaster";
 
 function connectToMongo() {
-    mongoose.connect(mongoURI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-    })
+    mongoose.connect(mongoURI)
     .then(() => {
         console.log("Connected to MongoDB Atlas Successfully");
     })
@@ -17,3 +14,4 @@ function connectToMongo() {
 }
 
 module.exports = connectToMongo;
+
