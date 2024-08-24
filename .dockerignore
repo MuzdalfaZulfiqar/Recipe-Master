@@ -1,0 +1,29 @@
+# Exclude node_modules directory (dependencies are installed in Docker)
+node_modules
+
+# Exclude log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Exclude Docker files themselves
+Dockerfile
+.dockerignore
+
+# Exclude version control directories and files
+.git
+.gitignore
+
+# Exclude environment variable files (important for security)
+.env
+
+# Exclude build directories (if applicable)
+build
+dist
+
+# Exclude IDE/editor specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+*.swp
