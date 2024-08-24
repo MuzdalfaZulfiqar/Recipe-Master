@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Build the frontend (if using React or similar)
-RUN npm run build --prefix src
+RUN npm run build 
 
 # Expose the port your application will run on
 EXPOSE 3000
